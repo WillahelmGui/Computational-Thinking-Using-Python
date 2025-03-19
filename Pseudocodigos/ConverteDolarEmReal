@@ -1,0 +1,14 @@
+programa {
+  real quantidadeReal
+  real cotacaoDolar
+  funcao inicio() {
+    escreva("Infome a cotação do Dólar:")
+    leia(cotacaoDolar)
+    escreva("Infome a quantidade de reais que você tem:")
+    leia(quantidadeReal)
+    escreva("Quantidade disponível de reais: R$" + quantidadeReal)
+    escreva("Quantidade de dólares que você pode comprar: " + (quantidadeReal / cotacaoDolar))
+  }
+}
+
+// Exemplo de código feito em Portugol.
